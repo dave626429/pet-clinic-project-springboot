@@ -23,7 +23,7 @@
 		<module>java-eclipse-git-data</module>
 		<module>java-eclipse-git-web</module>
 	</modules>
-	
+
 	<build>
 		<plugins>
 			<plugin>
@@ -35,9 +35,18 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
 					<goals>install</goals>
-					<!-- <autoVersionSubmodules>true</autoVersionSubmodules> -->
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<checkModificationExcludes>
+						<checkModificationExclude>pom.xml</checkModificationExclude>
+					</checkModificationExcludes>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:dave626429/pet-clinic-project-springboot.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>

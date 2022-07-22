@@ -10,6 +10,11 @@
 	<artifactId>java-eclipse-git-data</artifactId>
 	<name>springboot-data</name>
 	<description>Entity layer</description>
+	
+	<!--avoid building fat jar-->
+	<properties>
+		<spring-boot.repackage.skip>true</spring-boot.repackage.skip>
+	</properties>
 
 	<dependencies>
 
