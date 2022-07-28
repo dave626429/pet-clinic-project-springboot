@@ -51,7 +51,7 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:https://github.com/dave626429/JAVA-STS-REPO-ECLIPSE-PROJECT-.git</developerConnection>
-		<tag>java-eclipse-git-0.0.3</tag>
+		<developerConnection>scm:git:https://github.com/dave626429/pet-clinic-project-springboot.git</developerConnection>
+		<tag>jHEAD</tag>
 	</scm>
 </project>
