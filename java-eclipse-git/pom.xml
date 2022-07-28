@@ -52,6 +52,6 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/dave626429/pet-clinic-project-springboot.git</developerConnection>
-		<tag>jHEAD</tag>
+		<tag>HEAD</tag>
 	</scm>
 </project>
