@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.testapp</groupId>
 	<artifactId>java-eclipse-git</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<name>java-eclipse-git</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>pom</packaging>
@@ -52,6 +52,6 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/dave626429/JAVA-STS-REPO-ECLIPSE-PROJECT-.git</developerConnection>
-		<tag>java-eclipse-git-0.0.1</tag>
+		<tag>java-eclipse-git-0.0.3</tag>
 	</scm>
 </project>
