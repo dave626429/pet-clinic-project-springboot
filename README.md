@@ -1,5 +1,6 @@
 # pet-clinic-project-springboot
-##Springboot multi-module-project
+
+## Springboot multi-module-project
 
 ### Maven Bugs:
 1. Configure external maven, if the m2e is causing issues when using **release:prepare**
