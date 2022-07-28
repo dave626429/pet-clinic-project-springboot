@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.testapp</groupId>
 		<artifactId>java-eclipse-git</artifactId>
-		<version>0.0.2</version>
+		<version>0.0.3-SNAPSHOT</version>
 	</parent>
 	<artifactId>java-eclipse-git-web</artifactId>
 	<name>springboot-web</name>
@@ -13,7 +13,7 @@
 	<dependency>
 			<groupId>com.testapp</groupId>
 			<artifactId>java-eclipse-git-data</artifactId>
-			<version>0.0.2</version>
+			<version>0.0.3-SNAPSHOT</version>
 		</dependency>
 	
 		<dependency>
