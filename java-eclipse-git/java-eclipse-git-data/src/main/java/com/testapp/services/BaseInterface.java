@@ -4,7 +4,7 @@ import java.util.Set;
 
 public interface BaseInterface<T, ID> {
 
-	T findById();
+	T findById(ID id);
 
 	T save(T object);
 
