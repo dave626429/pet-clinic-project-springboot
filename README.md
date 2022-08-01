@@ -9,3 +9,8 @@
 4. Git tag issues: delete outdated tags in the git navigator under tags
 
 adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Zero&t=SPRING
+
+### Thymleaf NOTEs:
+1. should be in template folder.
+2. index.html should include name space: xmlns:th="http://www.thymeleaf.org".
+3. when using name space use **single quotes** if having spaces in your view string value
