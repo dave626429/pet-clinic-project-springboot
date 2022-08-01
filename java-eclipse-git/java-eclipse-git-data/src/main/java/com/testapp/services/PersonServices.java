@@ -1,15 +1,9 @@
 package com.testapp.services;
 
-import java.util.Set;
-
 import com.testapp.models.Person;
 
-public interface PersonServices {
+public interface PersonServices extends BaseInterface<Person, Long> {
 	
-	Person findById();
-	
-	Person save(Person person);
-	
-	Set<Person> findAll();
+
 
 }

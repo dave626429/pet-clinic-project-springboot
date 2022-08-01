@@ -1,15 +1,9 @@
 package com.testapp.services;
 
-import java.util.Set;
-
 import com.testapp.models.Vet;
 
-public interface VetServices {
+public interface VetServices extends BaseInterface<Vet, Long> {
 
-	Vet findById();
-
-	Vet save(Vet vet);
-
-	Set<Vet> findAll();
+	
 
 }

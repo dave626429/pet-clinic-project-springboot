@@ -1,15 +1,9 @@
 package com.testapp.services;
 
-import java.util.Set;
-
 import com.testapp.models.Owner;
 
-public interface OwnerServices {
+public interface OwnerServices extends BaseInterface<Owner, Long> {
 	
-	Owner findById();
-	
-	Owner save(Owner owner);
-	
-	Set<Owner> findAll();
+	Owner findByLastName(String lastName);
 
 }
