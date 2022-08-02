@@ -16,10 +16,10 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 3. when using name space use **single quotes** if having spaces in your view string value
 
 ### H2 properties
- spring.datasource.url=jdbc:h2:mem:testdb
- spring.datasource.driverClassName=org.h2.Driver
- spring.datasource.username=username
- spring.datasource.password=password
- spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
- #### for enable the GUI console
- spring.h2.console.enabled=true
+1. spring.datasource.url=jdbc:h2:mem:testdb
+2. spring.datasource.driverClassName=org.h2.Driver
+3. spring.datasource.username=username
+4. spring.datasource.password=password
+5. spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+#### for enable the GUI console
+1.1 spring.h2.console.enabled=true
