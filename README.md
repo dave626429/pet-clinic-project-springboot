@@ -22,4 +22,4 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 4. spring.datasource.password=password
 5. spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 6. **for enable the GUI console**
-* spring.h2.console.enabled=true
+   * spring.h2.console.enabled=true
