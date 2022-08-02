@@ -21,5 +21,5 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=username
 spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-# for enable the GUI console
+#### for enable the GUI console
 spring.h2.console.enabled=true
