@@ -3,9 +3,9 @@ package com.testapp.services.map;
 import java.util.Set;
 
 import com.testapp.models.Pet;
-import com.testapp.services.BaseInterface;
+import com.testapp.services.PetServices;
 
-public class PetServiceMap extends AbstractServiceMap<Pet, Long> implements BaseInterface<Pet, Long> {
+public class PetServiceMap extends AbstractServiceMap<Pet, Long> implements PetServices {
 	@Override
 	public Pet findById(Long id) {
 		return super.findById(id);

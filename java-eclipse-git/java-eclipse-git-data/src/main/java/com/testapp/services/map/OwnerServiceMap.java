@@ -3,9 +3,9 @@ package com.testapp.services.map;
 import java.util.Set;
 
 import com.testapp.models.Owner;
-import com.testapp.services.BaseInterface;
+import com.testapp.services.OwnerServices;
 
-public class OwnerServiceMap extends AbstractServiceMap<Owner, Long> implements BaseInterface<Owner, Long> {
+public class OwnerServiceMap extends AbstractServiceMap<Owner, Long> implements OwnerServices {
 
 	@Override
 	public Owner findById(Long id) {
@@ -30,6 +30,12 @@ public class OwnerServiceMap extends AbstractServiceMap<Owner, Long> implements 
 	@Override
 	public void deleteById(Long id) {
 		super.deleteById(id);
+	}
+
+	@Override
+	public Owner findByLastName(String lastName) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
