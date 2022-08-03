@@ -14,3 +14,12 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 1. should be in template folder.
 2. index.html should include name space: xmlns:th="http://www.thymeleaf.org".
 3. when using name space use **single quotes** if having spaces in your view string value
+
+### H2 properties
+1. spring.datasource.url=jdbc:h2:mem:testdb
+2. spring.datasource.driverClassName=org.h2.Driver
+3. spring.datasource.username=username
+4. spring.datasource.password=password
+5. spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+6. **for enable the GUI console**
+   * spring.h2.console.enabled=true
