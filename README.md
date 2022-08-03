@@ -28,4 +28,4 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 ### Externaliztion Properties Hierarchy
 1. Command line variable
 2. OS environement variable
-3 .properties or .yaml
+3. .properties or .yaml
