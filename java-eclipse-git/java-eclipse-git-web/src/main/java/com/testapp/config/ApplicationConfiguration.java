@@ -11,8 +11,8 @@ import com.testapp.datasource.FakeDataSource;
 public class ApplicationConfiguration {
 
 	@Bean
-	public FakeDataSource fakeDataSource(@Value("${application.username}") String userName,
-			@Value("${application.password}") String pasword, @Value("${application.jdbcurl}") String jdbcurl) {
+	public FakeDataSource fakeDataSource(@Value("${dave.username}") String userName,
+			@Value("${dave.password}") String pasword, @Value("${dave.jdbcurl}") String jdbcurl) {
 		return new FakeDataSource(userName, pasword, jdbcurl);
 	}
 
