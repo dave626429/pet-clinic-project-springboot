@@ -29,3 +29,10 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 1. Command line variable
 2. OS environement variable
 3. .properties or .yaml
+
+### Profiling .propeties files
+1. **spring.profiles.active**=<profile_name1>,<profile_name2>...
+  ```<application>-<profile_name>.properties
+  ex: application-dev.properties
+      application-production.properties
+      application-qa.properties
