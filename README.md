@@ -23,3 +23,9 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 5. spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 6. **for enable the GUI console**
    * spring.h2.console.enabled=true
+
+
+### Externaliztion Properties Hierarchy
+1. Command line variable
+2. OS environement variable
+3 .properties or .yaml
