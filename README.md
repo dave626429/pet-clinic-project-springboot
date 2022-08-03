@@ -31,7 +31,7 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
 3. .properties or .yaml
 
 ### Profiling .propeties files
-  <application>-<profile_name>.properties
+  ```<application>-<profile_name>.properties
   ex: application-dev.properties
       application-production.properties
-      application-qa.properties
+      application-qa.properties```
