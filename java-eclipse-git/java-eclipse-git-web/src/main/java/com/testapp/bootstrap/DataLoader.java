@@ -1,5 +1,6 @@
 package com.testapp.bootstrap;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -20,10 +21,11 @@ public class DataLoader implements CommandLineRunner {
 		return new Long((long) (((Math.random()) * 1000) + (Math.random() * 1000)));
 	}
 
-	public DataLoader() {
+	@Autowired
+	public DataLoader(VetServices vetService, OwnerServices ownerServices) {
 		super();
-		this.ownerServices = new OwnerServiceMap();
-		this.vetService = new VetServiceMap();
+		this.vetService = vetService;
+		this.ownerServices = ownerServices;
 	}
 
 	@Override

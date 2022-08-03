@@ -2,9 +2,13 @@ package com.testapp.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.testapp.models.Person;
 import com.testapp.services.BaseInterface;
 
+
+@Service
 public class PersonServiceMap extends AbstractServiceMap<Person, Long> implements BaseInterface<Person, Long> {
 	@Override
 	public Person findById(Long id) {

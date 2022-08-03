@@ -2,9 +2,13 @@ package com.testapp.services.map;
 
 import java.util.Set;
 
+import org.springframework.stereotype.Service;
+
 import com.testapp.models.Vet;
 import com.testapp.services.VetServices;
 
+
+@Service
 public class VetServiceMap extends AbstractServiceMap<Vet, Long> implements VetServices {
 	@Override
 	public Vet findById(Long id) {
