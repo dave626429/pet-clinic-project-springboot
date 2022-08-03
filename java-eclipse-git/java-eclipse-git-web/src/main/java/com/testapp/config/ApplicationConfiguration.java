@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 import com.testapp.datasource.FakeDataSource;
 
-@PropertySource("classpath:datasource.properties")
+//@PropertySource("classpath:datasource.properties")
 @Configuration
 public class ApplicationConfiguration {
 
