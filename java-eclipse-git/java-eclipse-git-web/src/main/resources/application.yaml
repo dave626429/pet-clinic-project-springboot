@@ -1,0 +1,25 @@
+
+#EXTERNAILZATION
+dave:
+  username: test username
+  password: test password
+  jdbcurl: jdbc URL
+  
+
+spring:
+  datasource:
+    url: 'jdbc:h2:mem:testdb'
+    driver-class-name: 'org.h2.Driver'
+    username: username
+    password: password
+  profiles:
+    active:
+  thymeleaf:
+    cache: false
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+  
+
