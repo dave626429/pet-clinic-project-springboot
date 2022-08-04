@@ -46,7 +46,6 @@ dave:
   username: test username
   password: test password
   jdbcurl: jdbc URL
-  
 
 spring:
   datasource:
