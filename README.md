@@ -40,3 +40,27 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
     
 ### .yaml files
 1. Do not use **TAB** for spacing.
+```
+#EXTERNAILZATION
+dave:
+  username: test username
+  password: test password
+  jdbcurl: jdbc URL
+  
+
+spring:
+  datasource:
+    url: 'jdbc:h2:mem:testdb'
+    driver-class-name: 'org.h2.Driver'
+    username: username
+    password: password
+  profiles:
+    active:
+  thymeleaf:
+    cache: false
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+```
