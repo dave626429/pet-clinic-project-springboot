@@ -40,6 +40,7 @@ adding custom banner - https://patorjk.com/software/taag/#p=display&v=1&f=Sub-Ze
     
 ### .yaml files
 1. Do not use **TAB** for spacing.
+2. use space after **colon**.
 ```
 #EXTERNAILZATION
 dave:
