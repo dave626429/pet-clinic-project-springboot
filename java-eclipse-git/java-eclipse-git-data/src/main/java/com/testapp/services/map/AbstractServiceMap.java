@@ -8,7 +8,7 @@ import java.util.Set;
 
 import com.testapp.entities.BaseEntity;
 
-public abstract class AbstractServiceMap<T extends BaseEntity, ID extends Long> {
+public abstract class AbstractServiceMap<T extends BaseEntity, ID extends Number> {
 
 	protected Map<Long, T> map = new HashMap<>();
 
